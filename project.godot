@@ -15,14 +15,14 @@ _global_script_class_icons={
 
 [application]
 
-config/name="zombi"
-run/main_scene="res://level1.tscn"
+config/name="Alien VS Zombies"
+run/main_scene="res://Level1.tscn"
 config/icon="res://icon.png"
 
 [display]
 
-window/size/width=1366
-window/size/height=768
+window/size/width=1280
+window/size/height=720
 
 [rendering]
 

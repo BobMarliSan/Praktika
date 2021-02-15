@@ -31,7 +31,7 @@ func change_direction():
 	$Area2D/CollisionShape2D.position.x *= -1
 
 func _on_Area2D_body_entered(body):
-	if is_alive && "Игрок" in body.name:
+	if is_alive && "Player" in body.name:
 		is_attacking = true
 		$AnimatedSprite.play("attack")
 		body.die()
